@@ -197,13 +197,13 @@ export default function GroupsPage() {
             </Float>
           </IconButton>
 
-          {/* Search Area 
+          {/* Search Area*/} 
           <Flex mb={4} mr={16} gap={2}>
-            <Input placeholder="Search..." size="lg" />
+            {/* <Input placeholder="Search..." size="lg" />
             <IconButton aria-label="Search" size="lg" variant="outline">
               <CiSearch />
-            </IconButton>
-          </Flex>*/}
+            </IconButton> */}
+          </Flex>
         </Box>
       </Header>
       {/* Floating Cart Button */}
