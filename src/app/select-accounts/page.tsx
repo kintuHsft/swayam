@@ -179,8 +179,8 @@ export default function GroupsPage() {
           <IconButton
             aria-label="Cart"
             position="absolute"
-            top={6}
-            right={6}
+            top={5}
+            right={5}
             size="lg"
             onClick={handleCartClick}
           >
