@@ -175,11 +175,11 @@ export default function GroupsPage() {
   return (
     <Box position="fixed" width={'100vw'} maxH="98%">
       <Header>
-        <Box position="sticky">
+        {/*<Box position="sticky">*/}
           <IconButton
             aria-label="Cart"
             position="absolute"
-            top={0}
+            top={2}
             right={3}
             size="lg"
             onClick={handleCartClick}
@@ -204,7 +204,7 @@ export default function GroupsPage() {
               <CiSearch />
             </IconButton> 
           </Flex>
-        </Box>
+          {/*        </Box> */}
       </Header>
       {/* Floating Cart Button */}
 
